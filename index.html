@@ -20,5 +20,88 @@
     />
   </head>
 
-  <body></body>
+  <body>
+    <header>
+      <div class="logo">
+        <!-- ***find logo image for header here ... can use svg or png-->
+        <img src="" alt="logo image" />
+      </div>
+      <!-- hamburger collapsable menu here -->
+      <button class="nav-toggle" aria-label="toggle nav">
+        <span class="hamburgerMenu"></span>
+      </button>
+      <!-- nav links -->
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <!-- Summary about me -->
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <!-- Capture dev skills here -->
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">Skills</a>
+          </li>
+          <!-- List Resume here, maybe downloadable if possible -->
+          <li class="nav__item">
+            <a href="#" class="nav__link">Work Experience</a>
+          </li>
+          <!-- Show off projects here, link to GitHub repos, create gifs or demo videos here -->
+          <li class="nav__item">
+            <a href="#" class="nav__link">My Projects</a>
+          </li>
+          <!-- Contact info -->
+          <li class="nav__item">
+            <a href="#" class="nav__link">Contact Me</a>
+          </li>
+          <!-- Links to cheatsheets or resources I use or like -->
+          <li class="nav__item">
+            <a href="#" class="nav__link">Appendix</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Intro -->
+    <section class="intro" id="home">
+      <!-- use modifier classes to distinguish -->
+      <h1 class="section__title section__title--intro">
+        HI, I am <strong>Dustin Welch</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        full stack dev
+        <!-- ***find profile pic to use here -->
+        <img src="img" alt="profile picture of Dustin Welch" />
+      </p>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">About Me</h2>
+
+      <!-- in case I want to spread info in columns... -->
+      <div class="about">
+        <div class="about-column">
+          <h3></h3>
+          <p></p>
+        </div>
+        <!-- end of div  -->
+
+        <div class="about-column">
+          <h3></h3>
+          <p></p>
+        </div>
+        <!-- end of div  -->
+
+        <div class="about-column">
+          <h3></h3>
+          <p></p>
+        </div>
+        <!-- end of div  -->
+      </div>
+      <!-- end of About Me containter -->
+
+      <a href="#skills" class="btn">My Skills</a>
+    </section>
+  </body>
 </html>
